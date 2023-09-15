@@ -1,0 +1,33 @@
+.profile{
+        display: flex;
+        flex-direction: column;
+        background-color: #f3d7d7;
+        margin-bottom: 20px;
+}
+.description{
+        color: blue;
+}
+.avatar{
+        width: 100px;
+        max-height: 200px;
+        object-fit: cover;
+        object-position: center;
+}
+
+.name {
+    color: blue;
+}
+.tag{
+        color: blue;
+}
+.location{
+        color: blue;
+}
+.stats{
+    color: blue;}
+.label{
+        color: blue;
+}
+.quantity{
+        color: blue;
+}

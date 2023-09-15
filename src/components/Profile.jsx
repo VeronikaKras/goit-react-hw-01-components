@@ -1,1 +1,0 @@
-// export const Profile = props => { return <button className="qwerty">Text</button>}
