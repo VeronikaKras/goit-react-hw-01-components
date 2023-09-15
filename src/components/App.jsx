@@ -17,17 +17,17 @@ export const App = props => {
 };
 
 
-export const StatTitle = props => {
-  return (
-   <Statistics title="Upload stats" stats={data} />
-  );
-};
+// export const StatTitle = props => {
+//   return (
+//    <Statistics title="Upload stats" stats={data} />
+//   );
+// };
 
-export const StatData = props => {
-  return (
-<Statistics stats={data} />
-  );
-};
+// export const StatData = props => {
+//   return (
+// <Statistics stats={data} />
+//   );
+// };
 
 
 
