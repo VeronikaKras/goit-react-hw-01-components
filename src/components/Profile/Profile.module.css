@@ -2,12 +2,16 @@
         display: flex;
         flex-direction: column;
         background-color:rgb(250, 240, 228);
+                align-items: center;
+                
 }
 .description{
         color: blue;
         display: flex;
                 flex-direction: column;
-                        margin-left: 20px;
+                                        align-items: center;
+                                        margin-top: 10px;
+                                        margin-bottom: 0;
 
 
 }
@@ -18,34 +22,56 @@
         object-position: center;
         justify-content: center;
         margin-left: 20px;
-        margin-top: 12px;
+        
 }
 
 .name {
-    color: blue;
+    color: rgb(4, 4, 100);
     margin-left: 20px;
-font-size: 20px;
-margin-top: 10px;
-
+    font-size: 20px;
+        font-weight: 600;
 }
 .tag{
         color: blue;
         margin-left: 20px;
         font-size: 20px;
+        font-size: 16px;
 }
 .location{
         color: blue;
         margin-left: 20px;
         font-size: 20px;
-}
-.stats{
-    color:orangered;
-display: flex;
-        flex-direction: column;
-                margin-left: 20px;
-                
+        font-size: 16px;
 }
 
+
+.stats{
+       
+        color: blue;
+        display: flex;
+        flex-direction: row;
+                padding-left: 0;
+                
+                
+}
+.stats li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        padding: 25px;
+}
+
+.quantity{
+        font-size: 16px;
+        color: rgb(4, 4, 100);
+        font-weight: 600;
+}
+
+.label {
+                font-size: 18px;
+                font-weight: 600;
+}
 
 ul {
         font-size: 20px;

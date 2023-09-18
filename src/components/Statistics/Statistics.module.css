@@ -1,0 +1,32 @@
+.statistics {
+    background-color: rgb(246, 196, 236);
+    display: flex;
+    flex-direction: column;
+                    align-items: center;
+}
+
+.title{
+    font-weight: 600;
+    color: rgb(3, 87, 14);
+}
+.percentage {
+    font-size: 48px;
+}
+
+.numbers{
+color: rgb(3, 87, 14);
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    gap: 16px;
+}
+
+.numbers li {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 172, 185);
+    border-radius:7px ;
+    align-items: center;
+    gap: 7px;
+    padding: 25px;
+}

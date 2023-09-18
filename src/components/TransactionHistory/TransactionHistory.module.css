@@ -1,0 +1,25 @@
+
+
+.history{
+        margin: 30px auto;
+        box-shadow: 1px 3px 3px rgb(187, 187, 187), -1px 3px 3px rgb(187, 187, 187),
+            0px -1px 3px 3px rgb(187, 187, 187);
+        border-spacing: 24px;
+        table-layout: fixed;
+        width: 50vw;
+        text-align: center;
+        border-radius: 8px;
+        
+    }
+
+    .head{
+        color: blue;
+
+    }
+    
+    .body{
+color: rgb(1, 69, 47); 
+   }
+   .row{
+    background-color: skyblue;
+   }
